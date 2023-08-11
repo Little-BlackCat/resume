@@ -14,6 +14,10 @@
     scroll-behavior: smooth;
   }
 
+  li {
+    white-space: nowrap;
+  }
+
   .japanese {
     font-family: 'Cherry Bomb One', cursive;
   }
