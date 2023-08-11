@@ -3,7 +3,9 @@ import './App.css'
 function App() {
 
   return (
-    <h1 className='text-red-500'>Hello world</h1>
+    <div className='max-w-[1280px] w-[screen] mx-auto my-0'>
+      
+    </div>
   )
 }
 
