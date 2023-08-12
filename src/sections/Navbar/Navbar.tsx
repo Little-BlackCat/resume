@@ -32,25 +32,27 @@ function Navbar() {
   }, []);
 
   return (
-    <div className="bg-primary text-base sticky top-0 z-10 py-4 px-8 lg:px-10 flex justify-between items-center border-b-2 border-base xl:px-28">
-      <div className="flex items-center gap-8">
-        <img
-          src={cat_logo}
-          alt="logo"
-          className="w-[60px] h-[60px] rounded-full sm:w-[80px] sm:h-[80px] hover:cursor-pointer"
-        />
-        <h1 className="japanese text-5xl hover:cursor-pointer hover:scale-125 hover:duration-300">
-          クロネコ
-        </h1>
-      </div>
-      <div className="relative">
-        <img
-          src={menu}
-          alt="menu"
-          onClick={toggleMenu}
-          className="w-[60px] h-[60px] hover:cursor-pointer hover:scale-125 hover:duration-300 sm:w-[80px] sm:h-[80px] lg:hidden"
-        />
-        <Menu status={hidden} />
+    <div className="w-screen bg-primary text-base sticky top-0 z-10 py-4 px-8 lg:px-10  border-b-2 border-base xl:px-28">
+      <div className="max-w-[1440px] mx-auto flex justify-between items-center">
+        <div className="flex items-center gap-8">
+          <img
+            src={cat_logo}
+            alt="logo"
+            className="w-[60px] h-[60px] rounded-full sm:w-[80px] sm:h-[80px] hover:cursor-pointer"
+          />
+          <h1 className="japanese text-5xl hover:cursor-pointer hover:scale-125 hover:duration-300">
+            クロネコ
+          </h1>
+        </div>
+        <div className="relative">
+          <img
+            src={menu}
+            alt="menu"
+            onClick={toggleMenu}
+            className="w-[60px] h-[60px] hover:cursor-pointer hover:scale-125 hover:duration-300 sm:w-[80px] sm:h-[80px] lg:hidden"
+          />
+          <Menu status={hidden} />
+        </div>
       </div>
     </div>
   );
