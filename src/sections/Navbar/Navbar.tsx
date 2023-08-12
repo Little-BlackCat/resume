@@ -32,7 +32,7 @@ function Navbar() {
   }, []);
 
   return (
-    <div className="bg-primary text-base sticky top-0 py-4 px-8 lg:px-10 flex justify-between items-center border-b-2 border-base xl:px-28">
+    <div className="bg-primary text-base sticky top-0 z-10 py-4 px-8 lg:px-10 flex justify-between items-center border-b-2 border-base xl:px-28">
       <div className="flex items-center gap-8">
         <img
           src={cat_logo}
