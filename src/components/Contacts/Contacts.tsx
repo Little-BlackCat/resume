@@ -1,19 +1,22 @@
-import { contacts } from "../../contents/contacts";
+
+import {
+  faLine,
+  faLinkedin,
+  faSquareGithub,
+} from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Contacts() {
+
+  const iconHover:string = "hover:cursor-pointer hover:scale-125 hover:duration-300"
+
   return (
     <>
-      {contacts.map((contact, index) => {
-        return (
-          <div className={`${index} w-[60px] xl:w-[80px]`}>
-            <img
-              src={contact.img}
-              alt={contact.name}
-              className="w-full h-full hover:cursor-pointer hover:scale-125 hover:duration-300"
-            />
-          </div>
-        );
-      })}
+      <FontAwesomeIcon icon={faEnvelope} className={`${iconHover}`} />
+      <FontAwesomeIcon icon={faLine} className={`${iconHover}`} />
+      <FontAwesomeIcon icon={faLinkedin} className={`${iconHover}`} />
+      <FontAwesomeIcon icon={faSquareGithub} className={`${iconHover}`} />
     </>
   );
 }

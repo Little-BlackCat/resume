@@ -8,6 +8,7 @@ interface Contacts {
   name: string;
   img: string;
   link: string;
+  icon: string;
 }
 
 export const contacts: Contacts[] = [
@@ -15,18 +16,22 @@ export const contacts: Contacts[] = [
     name: "email",
     img: email,
     link: "",
+    icon: "faEnvelope",
   },
   {
     name: "line",
     img: line,
     link: "",
+    icon: "faLine",
   },{
     name: "linkedin",
     img: linkedin,
     link: "",
+    icon: "faLinkedin",
   },{
     name: "github",
     img: github,
     link: "",
+    icon: "faSquareGithub",
   },
 ]
