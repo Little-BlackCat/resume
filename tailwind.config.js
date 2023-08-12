@@ -14,6 +14,9 @@ export default {
         danger: "#C70039",
         success: "#1D5D9B",
         warning: "#F4D160",
+      },
+      backgroundImage: {
+        'bg-img': "url('./src/assets/images/bg-image.jpg')"
       }
     },
   },
