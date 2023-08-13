@@ -5,8 +5,8 @@ function Experience() {
   return (
     <div className="px-5 md:px-10 xl:px-20 py-36">
       <Title title="Experience" />
-      <div className="mt-24 text-secondary sm:flex justify-center gap-10">
-        <div className="hidden sm:block">
+      <div className="mt-24 text-secondary sm:flex justify-center gap-10 lg:gap-24">
+        <div className="hidden sm:flex flex-col justify-center">
           {exp.map((data, index) => {
             return (
               <>
@@ -21,7 +21,7 @@ function Experience() {
           })}
         </div>
 
-        <div className="p-12 shadow-2xl rounded-[30px]">
+        <div className="p-12 lg:p-20 shadow-2xl rounded-[30px]">
           {exp.map((data, index) => {
             return (
               <>

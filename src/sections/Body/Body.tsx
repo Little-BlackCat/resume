@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Body() {
   return (
-    <div className="bg-bg-img bg-center w-full h-auto text-background">
+    <div id="home" className="bg-bg-img bg-center w-full h-auto text-background">
       <div className="backdrop-blur-sm py-20">
         <div className="px-20 xl:px-0 flex flex-col justify-center items-center">
           <div className="w-[180px] h-[180px] lg:w-[200px] lg:h-[200px] mb-12 shadow-2xl rounded-full">

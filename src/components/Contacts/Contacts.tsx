@@ -1,4 +1,3 @@
-
 import {
   faLine,
   faLinkedin,
@@ -8,8 +7,8 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Contacts() {
-
-  const iconHover:string = "hover:cursor-pointer hover:scale-125 hover:duration-300"
+  const iconHover: string =
+    "hover:cursor-pointer hover:scale-125 hover:duration-300";
 
   return (
     <>
