@@ -8,7 +8,7 @@ function Projects() {
       <Title title="Project" />
       <Ports />
       <div className="py-12 text-3xl font-semibold text-right">
-        <a href="https://github.com/Little-BlackCat" target="__blank">More.....</a>
+        <a href="https://github.com/Little-BlackCat" target="__blank" className="hover:text-2xl hover:duration-300">More.....</a>
       </div>
     </div>
   )
