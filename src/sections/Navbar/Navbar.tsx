@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import catLogo from "../../assets/icons/catlogo.jpg";
-import menu from "../../assets/icons/menu.png";
+import catLogo from "../../../public/icons/catlogo.jpg";
+import menu from "../../../public/icons/menu.png";
 import Menu from "../../components/Menu/Menu";
 
 function Navbar() {

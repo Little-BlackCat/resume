@@ -1,4 +1,4 @@
-import dot from "../../assets/images/dot.png"
+import dot from "../../../public/images/dot.png"
 
 type TitleProp = {
   title: string;

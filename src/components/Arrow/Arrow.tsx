@@ -1,4 +1,4 @@
-import arrow from "../../assets/icons/arrow_up.png";
+import arrow from "../../../public/icons/arrow_up.png";
 
 function Arrow() {
   return (

@@ -1,8 +1,8 @@
 // Import Expoerience Icon
 
-import graduation from "../assets/icons/graduation-cap.svg"
-import syringe from "../assets/icons/syringe.svg"
-import coding from "../assets/icons/laptop-code.svg"
+import graduation from "../../public/icons/graduation-cap.svg"
+import syringe from "../../public/icons/syringe.svg"
+import coding from "../../public/icons/laptop-code.svg"
 
 // Export exp
 

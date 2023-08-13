@@ -1,9 +1,9 @@
 import Title from "../../components/Title/Title";
-import profileImg2 from "../../assets/images/profile2.jpeg";
-import cat from "../../assets/images/cat_laptop.png";
+import profileImg2 from "../../../public/images/profile2.jpeg";
+import cat from "../../../public/images/cat_laptop.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHandPointDown } from "@fortawesome/free-solid-svg-icons";
-import resume from "../../assets/resume/Resume.pdf"
+import resume from "../../../public/resume/Resume.pdf"
 import Activities from "../../components/Activites/Activities";
 
 const AboutMe = () => {

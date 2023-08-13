@@ -1,9 +1,9 @@
 // Import image for activities
 
-import cup from "../assets/icons/mug-hot-solid.svg"
-import books from "../assets/icons/book-solid.svg"
-import algo from "../assets/icons/diagram-project-solid.svg"
-import game from "../assets/icons/dragon-solid.svg"
+import cup from "../../public/icons/mug-hot-solid.svg"
+import books from "../../public/icons/book-solid.svg"
+import algo from "../../public/icons/diagram-project-solid.svg"
+import game from "../../public/icons/dragon-solid.svg"
 
 // Export Activities
 

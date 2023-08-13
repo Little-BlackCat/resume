@@ -16,7 +16,7 @@ export default {
         warning: "#F4D160",
       },
       backgroundImage: {
-        'img': "url('./src/assets/images/bg-image.jpg')"
+        'img': "url('./public/images/bg-image.jpg')"
       }
     },
   },

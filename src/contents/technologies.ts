@@ -1,9 +1,9 @@
 // Import image for technologies
 
-import frontend from "../assets/icons/frontend1.png"
-import backend from "../assets/icons/backend.png"
-import database from "../assets/icons/database.png"
-import tools from "../assets/icons/tools.png"
+import frontend from "../../public/icons/frontend1.png"
+import backend from "../../public/icons/backend.png"
+import database from "../../public/icons/database.png"
+import tools from "../../public/icons/tools.png"
 
 // Export technologies
 

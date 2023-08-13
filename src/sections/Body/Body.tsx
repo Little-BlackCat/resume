@@ -1,4 +1,4 @@
-import profileImg1 from "../../assets/images/profile1.jpeg";
+import profileImg1 from "../../../public/images/profile1.jpeg";
 import Contacts from "../../components/Contacts/Contacts";
 
 import { faCircleArrowUp } from "@fortawesome/free-solid-svg-icons";

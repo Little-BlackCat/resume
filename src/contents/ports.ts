@@ -1,8 +1,8 @@
 // Import image for ports 
 
-import anime from "../assets/ports/search.png"
-import result from "../assets/ports/result-sumary.jpeg"
-import vnl from "../assets/ports/Volleyball_Nations_League_Logo.png"
+import anime from "../../public/ports/search.png"
+import result from "../../public/ports/result-sumary.jpeg"
+import vnl from "../../public/ports/Volleyball_Nations_League_Logo.png"
 
 // Export Ports
 
