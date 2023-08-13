@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import catLogo from "../../assets/icons/cat_logo.jpeg";
+import catLogo from "../../assets/icons/cat_logo.jpg";
 import menu from "../../assets/icons/menu.png";
 import Menu from "../../components/Menu/Menu";
 
