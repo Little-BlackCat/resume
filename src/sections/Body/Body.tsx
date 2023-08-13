@@ -1,12 +1,13 @@
 import profileImg1 from "../../../public/images/profile1.jpeg";
 import Contacts from "../../components/Contacts/Contacts";
+import bg from "../../../public/images/bg-image.jpg"
 
 import { faCircleArrowUp } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Body() {
   return (
-    <div id="home" className="bg-img bg-center w-full h-auto text-background">
+    <div id="home" className="bg-center w-full h-auto text-background" style={{backgroundImage:`url(${bg})`}}>
       <div className="backdrop-blur-sm py-20">
         <div className="px-20 xl:px-0 flex flex-col justify-center items-center">
           <div className="w-[180px] h-[180px] lg:w-[200px] lg:h-[200px] mb-12 shadow-2xl rounded-full">
