@@ -1,4 +1,4 @@
-import { activites } from "../../contents/contacts";
+import { activites } from "../../contents/activities";
 
 const Activities = () => {
 

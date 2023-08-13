@@ -2,6 +2,7 @@ import './App.css'
 import AboutMe from './sections/AboutMe/AboutMe'
 import Body from './sections/Body/Body'
 import Projects from './sections/Projects/Projects'
+import Skills from './sections/Skills/Skills'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
       <Body />
       <AboutMe />
       <Projects />
+      <Skills />
     </div>
   )
 }

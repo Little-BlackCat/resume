@@ -1,4 +1,4 @@
-import { ports } from "../../contents/contacts";
+import { ports } from "../../contents/ports";
 
 function Ports() {
   const hoverContent: string =

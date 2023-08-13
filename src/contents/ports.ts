@@ -1,40 +1,10 @@
-import cup from "../assets/icons/mug-hot-solid.svg"
-import books from "../assets/icons/book-solid.svg"
-import algo from "../assets/icons/diagram-project-solid.svg"
-import game from "../assets/icons/dragon-solid.svg"
+// Import image for ports 
 
 import anime from "../assets/ports/search.png"
 import result from "../assets/ports/result-sumary.jpeg"
 import vnl from "../assets/ports/Volleyball_Nations_League_Logo.png"
 
-interface Activites {
-  icon: string;
-  amount: number;
-  title: string;
-}
-
-export const activites: Activites[] = [
-  {
-    icon: cup,
-    amount: 223,
-    title: "cup of coffee",
-  },
-  {
-    icon: books,
-    amount: 23,
-    title: "Books",
-  },
-  {
-    icon: algo,
-    amount: 28,
-    title: "Algorithm",
-  },
-  {
-    icon: game,
-    amount: 3234,
-    title: "MOBA Game",
-  },
-]
+// Export Ports
 
 interface Ports {
   img: string;
