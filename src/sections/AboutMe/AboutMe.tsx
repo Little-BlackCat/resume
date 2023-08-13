@@ -3,6 +3,8 @@ import profileImg2 from "../../assets/images/profile2.jpeg";
 import cat from "../../assets/images/cat_laptop.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHandPointDown } from "@fortawesome/free-solid-svg-icons";
+import resume from "../../assets/resume/Resume.pdf"
+import Activities from "../../components/Activites/Activities";
 
 const AboutMe = () => {
   return (
@@ -34,7 +36,7 @@ const AboutMe = () => {
           </div>
           <div className="flex justify-center items-center -mt-1 mb-6 xl:-mt-16 xl:justify-start xl:ml-16">
             <button className="bg-danger text-background py-2 px-6 rounded-full lg:text-2xl font-semibold hover:cursor-pointer hover:scale-110 hover: duration-300 mr-4">
-              Download Resume
+              <a href={resume} target="_blank">Download Resume</a>
             </button>
             <div className="text-lg lg:text-3xl text-success rotate-90">
               <FontAwesomeIcon
@@ -45,6 +47,7 @@ const AboutMe = () => {
           </div>
         </div>
       </div>
+      <Activities />
     </div>
   );
 };

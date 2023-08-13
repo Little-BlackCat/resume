@@ -1,37 +1,33 @@
-import email from "../assets/icons/email.png"
-import line from "../assets/icons/line.png"
-import linkedin from "../assets/icons/linkedin.png"
-import github from "../assets/icons/github.png"
+import cup from "../assets/icons/mug-hot-solid.svg"
+import books from "../assets/icons/book-solid.svg"
+import algo from "../assets/icons/diagram-project-solid.svg"
+import game from "../assets/icons/dragon-solid.svg"
 
-
-interface Contacts {
-  name: string;
-  img: string;
-  link: string;
+interface Activites {
   icon: string;
+  amount: number;
+  title: string;
 }
 
-export const contacts: Contacts[] = [
+export const activites: Activites[] = [
   {
-    name: "email",
-    img: email,
-    link: "",
-    icon: "faEnvelope",
+    icon: cup,
+    amount: 223,
+    title: "cup of coffee",
   },
   {
-    name: "line",
-    img: line,
-    link: "",
-    icon: "faLine",
-  },{
-    name: "linkedin",
-    img: linkedin,
-    link: "",
-    icon: "faLinkedin",
-  },{
-    name: "github",
-    img: github,
-    link: "",
-    icon: "faSquareGithub",
+    icon: books,
+    amount: 23,
+    title: "Books",
+  },
+  {
+    icon: algo,
+    amount: 10,
+    title: "Algorithm",
+  },
+  {
+    icon: game,
+    amount: 3234,
+    title: "MOBA Game",
   },
 ]
