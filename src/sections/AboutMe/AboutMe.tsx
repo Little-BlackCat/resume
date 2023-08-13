@@ -8,7 +8,7 @@ import Activities from "../../components/Activites/Activities";
 
 const AboutMe = () => {
   return (
-    <div className="px-5 md:px-10 xl:px-20 py-36">
+    <div className="px-5 md:px-10 xl:px-20 pt-36">
       <Title title="About Me" />
       <div className="flex flex-col lg:flex-row justify-between items-center mt-8 mx-10 lg:mx-0 gap-16">
         <div className="w-[200px] h-[200px] lg:w-[250px] lg:h-[250px] shadow-2xl rounded-full border-success border-4 border-dashed">
@@ -20,7 +20,7 @@ const AboutMe = () => {
         </div>
 
         <div className="flex-1 bg-base rounded-3xl">
-          <div className="flex lg:flex-row p-8 lg:p-16">
+          <div className="flex lg:flex-row p-8 lg:p-16 lg:gap-6">
             <p className="text-sm sm:text-lg xl:text-xl font-medium">
               Highly motivated and dedicated entry-level back-end developer with
               a passion for coding and problem-solving. While lacking a formal
@@ -31,10 +31,10 @@ const AboutMe = () => {
             <img
               src={cat}
               alt="cat_working"
-              className="hidden lg:block lg:w-[200px] lg:h-[200px] rounded-3xl shadow-2xl"
+              className="hidden lg:block lg:w-[250px] lg:h-[250px] xl:w-[300px] xl:h-[300px] rounded-3xl shadow-2xl"
             />
           </div>
-          <div className="flex justify-center items-center -mt-1 mb-6 xl:-mt-16 xl:justify-start xl:ml-16">
+          <div className="flex justify-center items-center -mt-1 mb-6 xl:-mt-24 xl:justify-start xl:ml-16">
             <button className="bg-danger text-background py-2 px-6 rounded-full lg:text-2xl font-semibold hover:cursor-pointer hover:scale-110 hover: duration-300 mr-4">
               <a href={resume} target="_blank">Download Resume</a>
             </button>
