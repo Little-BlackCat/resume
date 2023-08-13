@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #395B64;
+    font-family: 'Prompt', sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  li {
+    white-space: nowrap;
+  }
+
+  .japanese {
+    font-family: 'Cherry Bomb One', cursive;
+  }
+
+}
