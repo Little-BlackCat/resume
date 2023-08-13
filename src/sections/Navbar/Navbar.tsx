@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import cat_logo from "../../assets/icons/cat_logo.jpeg";
+import catLogo from "../../assets/icons/cat_logo.jpeg";
 import menu from "../../assets/icons/menu.png";
 import Menu from "../../components/Menu/Menu";
 
@@ -36,7 +36,7 @@ function Navbar() {
       <div className="max-w-[1440px] mx-auto flex justify-between items-center">
         <div className="flex items-center gap-8">
           <img
-            src={cat_logo}
+            src={catLogo}
             alt="logo"
             className="w-[60px] h-[60px] rounded-full sm:w-[80px] sm:h-[80px] hover:cursor-pointer"
           />
