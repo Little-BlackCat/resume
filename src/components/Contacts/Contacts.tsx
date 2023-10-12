@@ -1,5 +1,5 @@
 import {
-  faLine,
+  // faLine,
   faLinkedin,
   faSquareGithub,
 } from "@fortawesome/free-brands-svg-icons";
@@ -13,9 +13,13 @@ function Contacts() {
   return (
     <>
       <FontAwesomeIcon icon={faEnvelope} className={`${iconHover}`} />
-      <FontAwesomeIcon icon={faLine} className={`${iconHover}`} />
-      <FontAwesomeIcon icon={faLinkedin} className={`${iconHover}`} />
-      <FontAwesomeIcon icon={faSquareGithub} className={`${iconHover}`} />
+      {/* <FontAwesomeIcon icon={faLine} className={`${iconHover}`} /> */}
+      <a href="https://www.linkedin.com/in/banyawat-y" target="_blank">
+        <FontAwesomeIcon icon={faLinkedin} className={`${iconHover}`} />
+      </a>
+      <a href="https://github.com/Little-BlackCat" target="_blank">
+        <FontAwesomeIcon icon={faSquareGithub} className={`${iconHover}`} />
+      </a>
     </>
   );
 }

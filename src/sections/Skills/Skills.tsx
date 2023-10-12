@@ -4,7 +4,7 @@ import Title from "../../components/Title/Title"
 
 function Skills() {
   return (
-    <div className="px-5 md:px-10 xl:px-20 py-28 bg-base">
+    <div id="skills"  className="px-5 md:px-10 xl:px-20 py-28 bg-base">
       <Title title="Skils" />
       <Tech />
     </div>

@@ -8,7 +8,7 @@ import Activities from "../../components/Activites/Activities";
 
 const AboutMe = () => {
   return (
-    <div className="px-5 md:px-10 xl:px-20 pt-36">
+    <div id="about me" className="px-5 md:px-10 xl:px-20 pt-36">
       <Title title="About Me" />
       <div className="flex flex-col lg:flex-row justify-between items-center mt-8 mx-10 lg:mx-0 gap-16">
         <div className="w-[200px] h-[200px] lg:w-[250px] lg:h-[250px] shadow-2xl rounded-full border-success border-4 border-dashed">

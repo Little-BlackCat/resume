@@ -16,7 +16,7 @@ interface Exp {
 
 export const exp:Exp[] = [
   {
-    year: "6/2023 - present",
+    year: "6/2023 - 10/2023",
     company: "TechUp",
     position: "Full-Stack Developer Training",
     department: "Full-Time Bootcamp",

@@ -21,7 +21,7 @@ export const technologies:Technologies[] = [
   },
   {
     title: "back-end",
-    tech: ["javascrip", "python", "go", "nodejs", "express"],
+    tech: ["javascrip", "python", "nodejs", "express"],
     icon: backend,
   },
   {
