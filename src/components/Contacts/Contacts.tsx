@@ -1,5 +1,4 @@
 import {
-  // faLine,
   faLinkedin,
   faSquareGithub,
 } from "@fortawesome/free-brands-svg-icons";
@@ -12,8 +11,9 @@ function Contacts() {
 
   return (
     <>
-      <FontAwesomeIcon icon={faEnvelope} className={`${iconHover}`} />
-      {/* <FontAwesomeIcon icon={faLine} className={`${iconHover}`} /> */}
+      <a href="mailto:neko.sword@gmail.com">
+        <FontAwesomeIcon icon={faEnvelope} className={`${iconHover}`} />
+      </a>
       <a href="https://www.linkedin.com/in/banyawat-y" target="_blank">
         <FontAwesomeIcon icon={faLinkedin} className={`${iconHover}`} />
       </a>
