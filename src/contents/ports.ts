@@ -1,7 +1,7 @@
 // Import image for ports 
 
 import anime from "../../public/ports/search.png"
-import result from "../../public/ports/result-sumary.jpeg"
+import todo from "../../public/ports/Todo.png"
 import vnl from "../../public/ports/Volleyball_Nations_League_Logo.png"
 
 // Export Ports
@@ -19,9 +19,9 @@ export const ports: Ports[] = [
     link: "https://github.com/Little-BlackCat/search-anime", 
   },
   {
-    img: result,
-    title: "Result Summary",
-    link: "https://github.com/Little-BlackCat/result-summary-component", 
+    img: todo,
+    title: "Todo",
+    link: "https://github.com/Little-BlackCat/todo-demo", 
   },
   {
     img: vnl,
