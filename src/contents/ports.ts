@@ -26,6 +26,6 @@ export const ports: Ports[] = [
   {
     img: blog,
     title: "Blog Post",
-    link: "https://nextjs-blog-project.netlify.app/sign-in", 
+    link: "https://github.com/Little-BlackCat/nextjs-blog", 
   },
 ]
