@@ -2,7 +2,7 @@
 
 import anime from "../../public/ports/search.png"
 import todo from "../../public/ports/Todo.png"
-import vnl from "../../public/ports/Volleyball_Nations_League_Logo.png"
+import blog from "../../public/ports/blog.png"
 
 // Export Ports
 
@@ -21,11 +21,11 @@ export const ports: Ports[] = [
   {
     img: todo,
     title: "Todo",
-    link: "https://github.com/Little-BlackCat/todo-demo", 
+    link: "https://little-blackcat.github.io/todo-demo/", 
   },
   {
-    img: vnl,
-    title: "VNL 2023",
-    link: "https://github.com/Little-BlackCat/vnl-2023", 
+    img: blog,
+    title: "Blog Post",
+    link: "https://nextjs-blog-project.netlify.app/sign-in", 
   },
 ]
