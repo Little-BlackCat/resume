@@ -22,7 +22,7 @@ const AboutMe = () => {
         <div className="flex-1 bg-base rounded-3xl">
           <div className="flex lg:flex-row p-8 lg:p-16 lg:gap-6">
             <p className="text-sm sm:text-lg xl:text-xl font-medium">
-              Highly motivated and dedicated entry-level back-end developer with
+              Highly motivated and dedicated entry-level full-stack developer with
               a passion for coding and problem-solving. While lacking a formal
               degree, I have honed my expertise through self-learning and
               hands-on projects, consistently delivering high-quality solutions.

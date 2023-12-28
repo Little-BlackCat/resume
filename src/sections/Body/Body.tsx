@@ -26,7 +26,7 @@ function Body() {
 
           <div className="text-center">
             <h2 className="text-xl lg:text-3xl font-bold mb-6">
-              I am a Back-End Developer
+              I am a Full-stack Developer
             </h2>
           </div>
 
