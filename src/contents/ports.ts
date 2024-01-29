@@ -2,7 +2,7 @@
 
 import home_service from "../../public/ports/Admin_Login.png"
 import todo from "../../public/ports/Todo.png"
-import blog from "../../public/ports/blog.png"
+import tekken8 from "../../public/ports/tekken_8_page.png"
 
 // Export Ports
 
@@ -24,8 +24,8 @@ export const ports: Ports[] = [
     link: "https://little-blackcat.github.io/todo-demo/", 
   },
   {
-    img: blog,
-    title: "Blog Post",
-    link: "https://github.com/Little-BlackCat/nextjs-blog", 
+    img: tekken8,
+    title: "Tekken 8 Character Details",
+    link: "https://tekken-8-homepage.vercel.app/",
   },
 ]
